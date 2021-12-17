@@ -1,0 +1,28 @@
+{
+  "name": "Purplle-Clone-MEN",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js -e js,ejs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MOHAMMADM-ASRAF/Purplle-Clone-MEN.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MOHAMMADM-ASRAF/Purplle-Clone-MEN/issues"
+  },
+  "homepage": "https://github.com/MOHAMMADM-ASRAF/Purplle-Clone-MEN#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.14.0",
+    "mongoose": "^6.1.2",
+    "nodemon": "^2.0.15"
+  }
+}
