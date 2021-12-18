@@ -24,15 +24,15 @@ router.get('/product',async (req,res) => {
     }
 })
 
-router.post('/signup',async (req,res) => {
-    try {
+// router.get('/signup',async (req,res) => {
+//     try {
        
-       return await res.render('signup.ejs')
+//        return await res.render('signup.ejs')
 
-    } catch(e) {
-        return res.status(500).json({message:"server is not able to connect to the database"});
-    }
-})
+//     } catch(e) {
+//         return res.status(500).json({message:"server is not able to connect to the database"});
+//     }
+// })
 
 // router.get('/products',async (req,res) => {
 //     try {

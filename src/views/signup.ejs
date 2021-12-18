@@ -1,33 +1,56 @@
- <!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../public/styles/index.css">
-    <script src="../public/scripts/index.js"></script>
-    <title>Signup</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purple</title>
+    <script src="https://kit.fontawesome.com/da2d034d86.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" href="https://media6.ppl-media.com/mediafiles/ecomm/misc/purplle-16x16.png">
+    <link rel="stylesheet" href="../public/styles/signup.css">
 </head>
 <body>
-     The Modal2 
-   <div id="myModal2" class="modal2"> 
+    
+    <div class="sign-up-form">
+      <h3>Welcome Aboard</h3>
+      <h6>Let’s know you the better and make sure that you never lose access to your account.</h6>
+      <form action="/signup" method="post">
+        <div class="fullname">
+            <input type="text" name="signupFullName" id="signupFullName" maxlength="75" title="Please enter valid First Name &amp; Last Name*" placeholder="Enter Your Name">
+        </div>
 
+        <div class="email">
+            <input type="email" name="signupEmail" id="signupemail" title="Email address" placeholder="Enter Email" autocomplete="off">
+        </div>
 
-    <div class="modal-content2">
-      <span class="close2">&times;</span>
-      <h2 class="lg">Login/Create Account</h2>
-      <input type="text" class="text" placeholder="Enter Your Name"/>
-      <input type="text" class="text" placeholder="Enter Your Email"/>
-      <input type="text" class="text" placeholder="Enter Your Mobile Number"/>
-      <input type="text" class="text" placeholder="Enter Your Password"/>
-      <Button id="button">Create Account</Button>
+        <div class="mobileno">
+            <input type="tel" name="signupMobileNumber" id="signupMobileNumber" title="Mobile Number (10 digits)" placeholder="Mobile Number" maxlength="10">
+        </div>
+
+        <div class="paswrd">
+            <input type="password" name="signupPassword" id="signupPassword" title="Set a password (min 6 &amp; max 15 characters)" placeholder="Create Password" autocomplete="off" maxlength="15">
+        </div>
+        
+
+        <div class="gender">
+            <input type="radio" name="gender" id="women" value="FEMALE">
+            <label for="women">Female</label>
+            <input type="radio" name="gender" id="men" value="MALE">
+            <label for="men">Male</label>
+        </div>
+        <p id="message"></p>
+        <input type="submit" class="continue" id="signupbutton" style="cursor: pointer;"/>
+        </form>
+        <div style="margin-top: 20px;"></div>
+        <div id="clearf"></div>
+    <div class="account"><img src="https://w7.pngwing.com/pngs/674/479/png-transparent-arrow-computer-icons-simple-left-arrow-icon-miscellaneous-purple-angle-thumbnail.png"><a href="/signin">Back to Login</a></div>
     </div>
+    
   
-  </div>
+   
 </body>
 </html>
 
-
-
-
- <!-- Linking script/signup.js file  -->
+<!--- Linking script/signup.js file ---></body>

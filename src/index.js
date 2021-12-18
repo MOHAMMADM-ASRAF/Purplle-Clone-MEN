@@ -11,6 +11,9 @@ const homeController = require('./controllers/home.controllers')
 // const prodController = require('./controllers/prod.controllers')
 const productController= require('./controllers/products.controllers')
 
+const signinController = require("./controllers/signin.controller")
+const signupController = require("./controllers/signup.controller")
+
 
 
 
@@ -32,8 +35,8 @@ app.use('/',homeController)
 app.use('/products',productController)
 
 
-
-
+app.use('/signin',signinController)
+app.use('/signup',signupController)
 
 
 
