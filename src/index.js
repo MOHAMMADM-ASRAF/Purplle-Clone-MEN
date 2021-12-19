@@ -15,7 +15,9 @@ const signinController = require("./controllers/signin.controller")
 const signupController = require("./controllers/signup.controller")
 
 
-
+const allProductController = require('./controllers/allproducts.controller');
+const productPageController = require('./controllers/productPage.controller');
+const cartController = require('./controllers/productCart.controller');
 
 
 
@@ -30,15 +32,22 @@ app.use("/public", express.static('./src/public'));
 
 
 
+
+
 app.use('/',homeController)
 // app.use('/prod',prodController)
 app.use('/products',productController)
 
 
+
+
+
 app.use('/signin',signinController)
 app.use('/signup',signupController)
 
-
+app.use('/allproducts', allProductController);
+app.use('/allproducts/cart', cartController);
+app.use('/allproducts/:id', productPageController);
 
 
 

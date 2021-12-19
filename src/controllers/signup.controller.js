@@ -7,7 +7,7 @@ const router = express.Router();
 
 router.get("/",async (req,res) => {
     try{
-       return  res.render("signup")
+       return  res.render("signup.ejs")
         
     }
    catch(e){
