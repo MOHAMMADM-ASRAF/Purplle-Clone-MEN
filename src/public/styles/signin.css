@@ -1,0 +1,75 @@
+
+        @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap");
+        * {
+            box-sizing: border-box;font-family: "Quicksand", sans-serif;
+          }
+                body{
+                    background-color: rgb(235, 229, 229);
+                }
+         #Login{
+            width: 33%;
+            height: 350px;
+            margin-left: 30%;
+            margin-top: 10%;
+            padding: 15px;
+            background-color:white;
+         }
+        form{
+          width: 100%;
+          padding: 5%;
+          color: #6c7a82;
+        }
+        #formdata1{
+          float: left;
+          width: 340px;
+        }
+        
+        #btn{
+          width: 30px;
+          border-radius: 50%;
+          text-align: center;
+          padding: 5px;
+          margin-left:10px;
+          margin-top: 16px;
+          background-color: rgb(194, 187, 187);
+          border: none;
+        }
+        #btn2{
+          color: #e40980;
+        }
+        
+        input{
+          display: block;
+            width: 320px;
+            border: none;
+            border-bottom: 1px solid #e9eced;
+            font-family: 'Aqleema-Regular';
+            padding: 10px;
+          color: #6c7a82;
+          outline:#e40980;
+        }
+        p{
+          margin-top: 50px;
+          margin-bottom: 20px;
+          text-align: center;
+          color: #6c7a82;
+        }
+        .visible {
+          width: 15px;
+         
+        }
+        #social >div{
+          display: inline-block;
+        }
+        .sp10{
+          margin-left: 5%;
+          width: 180px;
+          background-color: whitesmoke;
+          line-height: 48px;
+          height: 48px;
+          display: block;
+          box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+          border-radius: 2px;
+          text-align: center;
+        }
+        
