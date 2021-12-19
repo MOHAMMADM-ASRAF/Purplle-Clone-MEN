@@ -100,12 +100,12 @@ First you have to have to go to the signup page and create a new account. Then y
 ---
 - **Sign-Up Page**
 
-![Sign Up Page]()
+![Sign Up Page](https://github.com/MOHAMMADM-ASRAF/Purplle-Clone-MEN/blob/master/screenshot/signup.png)
 
 ---
 - **Sign-In Page**
 
-![Sign In Page]()
+![Sign In Page](https://github.com/MOHAMMADM-ASRAF/Purplle-Clone-MEN/blob/master/screenshot/signin.png)
 
 
 ---
