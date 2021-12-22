@@ -29,7 +29,7 @@ caramba!
 - **[Checkout this deployed link](https://festive-shirley-d33e4c.netlify.app)**
 ---
  #### Project Blog: 
-- **[Checkout The  Project Blog]()** 
+- **[Checkout The  Project Blog](https://medium.com/@karunesh029/hello-there-e65686550e39)** 
 
 ---
 
