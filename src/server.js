@@ -18,7 +18,7 @@ app.set("views", './src/views');
 
 app.use("/public", express.static('./src/public'));
 // port ke liye
-let port = process.env.PORT || 2729;
+let port = process.env.PORT || 2728;
 
 
 app.listen(port, async () => {
